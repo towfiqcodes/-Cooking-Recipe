@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+#Heading 
 
-You can use the [editor on GitHub](https://github.com/towfiqulislam/-Cooking-Recipe/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+**This is a simple cooking Application using kotlin & MVP Architecture** 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+#ScreenShot
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+![105032763_192250512147444_28814041643858729_n](https://user-images.githubusercontent.com/23715132/85220117-e0880e00-b3ca-11ea-96d1-0cfd41581bf2.png)             ![105369298_2696067700673565_1152245459560805992_n](https://user-images.githubusercontent.com/23715132/85220203-7754ca80-b3cb-11ea-831d-f9f237c1668d.png)   
 
-# Header 1
-## Header 2
-### Header 3
+![105548275_290790275435530_4135922049672331454_n](https://user-images.githubusercontent.com/23715132/85220206-7ae85180-b3cb-11ea-9326-dfb0bf4d952b.png)         ![105030887_880938482392790_8336429757980676246_n](https://user-images.githubusercontent.com/23715132/85220209-80de3280-b3cb-11ea-8135-f071dd75b614.png)  
 
-- Bulleted
-- List
+![105894940_744242429654909_6429500269831835262_n](https://user-images.githubusercontent.com/23715132/85220211-83d92300-b3cb-11ea-9da0-ffc8cad165cd.png)               ![104589354_293202388488053_3741725226037773840_n](https://user-images.githubusercontent.com/23715132/85220213-863b7d00-b3cb-11ea-84de-9c04ae2d1cc1.png)
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/towfiqulislam/-Cooking-Recipe/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
