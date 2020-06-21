@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+#Heading 
+This is a simple cooking Application
 
-You can use the [editor on GitHub](https://github.com/towfiqulislam/-Cooking-Recipe/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+#ScreenShot
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![device-2020-06-21-140652](https://user-images.githubusercontent.com/23715132/85219967-c3067480-b3c9-11ea-9ca4-320afc9dd853.png)
 
-### Markdown
+![device-2020-06-21-140813](https://user-images.githubusercontent.com/23715132/85219968-c7cb2880-b3c9-11ea-918f-e09ce9925e97.png)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![device-2020-06-21-140829](https://user-images.githubusercontent.com/23715132/85219974-d285bd80-b3c9-11ea-9dfb-490b804e49f3.png)
 
-```markdown
-Syntax highlighted code block
+![device-2020-06-21-140844](https://user-images.githubusercontent.com/23715132/85219977-d74a7180-b3c9-11ea-8e4d-c938a4c7a306.png)
 
-# Header 1
-## Header 2
-### Header 3
+![device-2020-06-21-140905](https://user-images.githubusercontent.com/23715132/85219978-dc0f2580-b3c9-11ea-98a6-909f80130538.png)
 
-- Bulleted
-- List
+![device-2020-06-21-140915](https://user-images.githubusercontent.com/23715132/85219981-e03b4300-b3c9-11ea-9c35-415be7cd9916.png)
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/towfiqulislam/-Cooking-Recipe/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
