@@ -10,21 +10,19 @@ import java.util.concurrent.TimeUnit
 class ServiceFactory {
 
     companion object {
-        var context: Context? = null
-
-
-        fun <T> createService(clazz: Class<T>?, endPoint: String?): T {
+        fun <T> createService(context: Context,clazz: Class<T>?, endPoint: String?): T {
             val retrofit = Retrofit.Builder()
                 .baseUrl(endPoint)
                 .addConverterFactory(GsonConverterFactory.create())
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
-                .client(getClient())
+                .client( getClient(context!!))
                 .build()
             return retrofit.create(clazz)
         }
 
-        private fun getClient(): OkHttpClient? {
+        private fun getClient(context: Context): OkHttpClient? {
             return OkHttpClient.Builder()
+                .addInterceptor(AuthInterceptor(context))
                 .connectTimeout(5, TimeUnit.MINUTES)
                 .readTimeout(5, TimeUnit.MINUTES)
                 .build()

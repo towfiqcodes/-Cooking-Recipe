@@ -9,10 +9,10 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.agrawalsuneet.loaderspack.loaders.CircularSticksLoader
 import com.example.cookingrecipe.R
+import com.example.cookingrecipe.activity.MainActivity
 import com.example.cookingrecipe.mvp.login.model.LoginResponse
 import com.example.cookingrecipe.mvp.login.presenter.LoginPresenter
 import com.example.cookingrecipe.mvp.login.view.LoginView
-import com.example.cookingrecipe.mvp.recipe.RecipeActivity
 import com.example.cookingrecipe.utility.InternetConnectionManager
 import com.example.cookingrecipe.utility.SharedPrefsHandler
 import com.example.cookingrecipe.utility.dialog.DialogBox
@@ -53,7 +53,7 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener, LoginView {
         Logger.addLogAdapter(AndroidLogAdapter())
         sharedPrefsHandler = SharedPrefsHandler(activity)
         dialogBox = DialogBox(activity!!)
-        loginPresenter = LoginPresenter(this)
+        loginPresenter = LoginPresenter(this, activity!!)
 
 
         loader = findViewById(R.id.progress)
@@ -101,7 +101,7 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener, LoginView {
         if (InternetConnectionManager.isConnectedToInternet(this)) {
             if (loginResponse!!.response.equals("success")) {
                 hideProgressBar()
-                val intent = Intent(activity, RecipeActivity::class.java)
+                val intent = Intent(activity, MainActivity::class.java)
                 startActivity(intent)
                 sharedPrefsHandler!!.setUserToken(loginResponse!!.result.token)
             } else {

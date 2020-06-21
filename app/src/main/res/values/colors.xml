@@ -22,6 +22,24 @@
 
     <color name="darkmagenta">#8B008B</color>
 
+  //design color
+
+    <color name="sky_blue">#AAC6D0</color>
+    <color name="sky_blue1">#8CAAC6D0</color>
+
+    <color name="azura">#EAF2F4</color>
+    <color name="black_pearl">#0E1213</color>
+    <color name="dark_blue">#34545F</color>
+    <color name="blue_lagoon">#3B7487</color>
+    <color name="dark_grayish_cyan">#A2ADAF</color>
+    <color name="strong_orange">#C75218</color>
+    <color name="strong_orange1">#FFB701</color>
+    <color name="lime_green">#7E938A</color>
+
+   //end of the color
+
+
+
     <array name="colors_red">
         <item>@color/red</item>
     </array>

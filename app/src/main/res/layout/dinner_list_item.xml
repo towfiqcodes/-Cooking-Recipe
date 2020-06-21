@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_transition"
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:layout_margin="@dimen/margin_10dp"
+    android:transitionName="layoutTransition"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/civ_image"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        app:civ_border_width="2dp"
+        android:transitionName="selectClientTransition"
+        app:civ_border_color="@color/dark_grayish_cyan"
+        android:src="@drawable/image3"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/margin_10dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/recipe_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pie Blackberries"
+            android:textSize="@dimen/text_15sp"
+            android:textColor="@color/black_pearl"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginTop="@dimen/margin_5dp"/>
+        <TextView
+            android:id="@+id/recipe_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="150cl"
+            android:textSize="@dimen/text_12sp"
+            android:textColor="@color/dark_grayish_cyan"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginTop="@dimen/margin_5dp"/>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="@dimen/margin_20dp"
+            android:text="BOOK"
+            android:background="@drawable/button_shape"
+            android:textSize="@dimen/text_12sp"
+            android:gravity="center"
+            android:textColor="@color/strong_orange1"
+            android:textStyle="normal"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginTop="@dimen/margin_5dp"/>
+    </LinearLayout>
+
+</LinearLayout>

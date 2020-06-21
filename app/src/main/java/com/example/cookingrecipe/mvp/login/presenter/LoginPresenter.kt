@@ -1,5 +1,6 @@
 package com.example.cookingrecipe.mvp.login.presenter
 
+import android.content.Context
 import com.example.cookingrecipe.mvp.login.controller.Logincontroller
 import com.example.cookingrecipe.mvp.login.model.LoginResponse
 import com.example.cookingrecipe.mvp.login.view.LoginView
@@ -13,7 +14,7 @@ import io.reactivex.observers.DisposableObserver
 import io.reactivex.schedulers.Schedulers
 import okhttp3.RequestBody
 
-class LoginPresenter(val loginView: LoginView): Logincontroller {
+class LoginPresenter(val loginView: LoginView, val context: Context): Logincontroller {
 
 
     override fun getLoginConnection(email: RequestBody, password: RequestBody) {
@@ -26,7 +27,7 @@ class LoginPresenter(val loginView: LoginView): Logincontroller {
         email: RequestBody,
         password: RequestBody
     ): Observable<LoginResponse?>? {
-        return ServiceFactory.createService(ApiInterface::class.java,ConnectionURL.BASE_URL)
+        return ServiceFactory.createService(context,ApiInterface::class.java,ConnectionURL.BASE_URL)
             .login(email,password)
             ?.subscribeOn(Schedulers.io())
             ?.observeOn(AndroidSchedulers.mainThread())
