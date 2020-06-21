@@ -1,5 +1,7 @@
 #Heading 
-This is a simple cooking Application using kotlin
+
+**This is a simple cooking Application using kotlin & MVP Architecture** 
+
 
 #ScreenShot
 
